@@ -4,10 +4,10 @@ import "./ERC20Standard.sol";
 
 contract NewToken is ERC20Standard {
 	constructor() public {
-		totalSupply = 123;
-		name = "Best ever coin";
+		totalSupply = 1 000 000;
+		name = "Sok coin";
 		decimals = 4;
-		symbol = "BEC";
+		symbol = "SOK";
 		version = "1.0";
 		balances[msg.sender] = totalSupply;
 	}
